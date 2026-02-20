@@ -1,7 +1,7 @@
 # Predictive Marketing Campaign & Customer Segmentation 🎯
 
 ## 📌 Project Overview
-This project is an end-to-end Data Science pipeline designed to analyze customer behavior, segment them into distinct personality clusters, and build a highly optimized predictive model to maximize the ROI (Return on Investment) of targeted marketing campaigns. 
+This project is an end-to-end Data Science pipeline designed to analyse customer behaviour, segment them into distinct personality clusters, and build a highly optimised predictive model to maximise the ROI (Return on Investment) of targeted marketing campaigns. 
 
 By transitioning from a "spray-and-pray" marketing approach to a data-driven predictive strategy, this project demonstrates how machine learning can significantly boost campaign revenue by effectively identifying hidden buyers.
 
@@ -13,7 +13,7 @@ By transitioning from a "spray-and-pray" marketing approach to a data-driven pre
 * **Language:** Python
 * **Data Manipulation:** `pandas`, `numpy`
 * **Machine Learning:** `scikit-learn`, `imblearn` (SMOTE)
-* **Visualization:** `matplotlib`, `seaborn`
+* **Visualisation:** `matplotlib`, `seaborn`
 
 ## 🚀 Methodology & Pipeline
 
@@ -32,14 +32,14 @@ By transitioning from a "spray-and-pray" marketing approach to a data-driven pre
 ### 3. Unsupervised Learning (Customer Segmentation)
 * Scaled features using `StandardScaler` to ensure distance-based algorithms worked correctly.
 * Applied **K-Means Clustering** to segment the customer base into 4 distinct "Personalities" based on Income, Total Spent, Age, and Dependents. 
-* This segmentation allows for highly personalized future marketing efforts.
+* This segmentation allows for highly personalised future marketing efforts.
 
 ### 4. Supervised Learning (Predictive Analytics)
 * **The Goal:** Predict whether a customer will accept (`1`) or reject (`0`) the next marketing campaign.
-* **The Challenge:** Highly imbalanced data (only 16% of customers previously accepted campaigns). An initial Random Forest model played it too safe, missing 76% of actual buyers.
-* **The Optimization:** * Implemented **SMOTE** (Synthetic Minority Over-sampling Technique) to synthetically balance the training data.
+* **The Challenge:** Highly imbalanced data (only 16% of customers previously accepted campaigns). An initial Random Forest model played it too safe (24% accuracy), missing 76% of actual buyers.
+* **The Optimisation:** * Implemented **SMOTE** (Synthetic Minority Over-sampling Technique) to synthetically balance the training data.
     * Tuned the **Probability Threshold** (lowered to 0.35) to prioritize *Recall* over *Precision*.
-* **Business Impact:** By tuning the algorithm to be more aggressive in hunting for "YES" customers, the model successfully captured a significantly higher percentage of buyers. In a real-world scenario, this specific optimization translates directly to capturing lost revenue, vastly outperforming random guessing or baseline models.
+* **Business Impact:** By tuning the algorithm to be more aggressive in hunting for "YES" customers, the model successfully captured a significantly higher percentage of buyers(64% accuracy). In a real-world scenario, this specific optimisation translates directly to capturing lost revenue, vastly outperforming random guessing or baseline models.
 
 <img width="576" height="384" alt="8" src="https://github.com/user-attachments/assets/33aa2cf2-86dd-45d6-a536-08b050863beb" />
 
@@ -47,7 +47,7 @@ By transitioning from a "spray-and-pray" marketing approach to a data-driven pre
 ## 💡 Key Business Takeaways
 1. **Targeted Spending:** High-income customers with zero children are the most lucrative demographic for premium products.
 2. **Loyalty Matters:** Feature importance analysis revealed that `Customer_Days` (tenure) and `Total_Spent` are the strongest predictors of campaign acceptance.
-3. **Imbalanced Data Strategy:** In digital marketing, the cost of a false positive (sending an email to a non-buyer) is practically zero, but the reward of a true positive is high. Optimizing models for **Recall** via SMOTE and threshold adjustment is critical for maximizing pure revenue.
+3. **Imbalanced Data Strategy:** In digital marketing, the cost of a false positive (sending an email to a non-buyer) is practically zero, but the reward of a true positive is high. Optimising models for **Recall** via SMOTE and threshold adjustment is critical for maximizing pure revenue.
 
 ## 💻 How to Run This Project
 1. Clone this repository.
