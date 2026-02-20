@@ -26,7 +26,7 @@ By transitioning from a "spray-and-pray" marketing approach to a data-driven pre
 * Conducted correlation analysis to identify the primary mathematical drivers of spending.
 * **Key Insight:** Proved statistically that household spending on luxury items (like wine) drastically decreases as the number of children increases.
 
-![Box Plot of Spending vs Children](<img width="1180" height="684" alt="4" src="https://github.com/user-attachments/assets/b3872a3d-35ea-4048-a893-0c06294627a0" />)
+<img width="1180" height="684" alt="4" src="https://github.com/user-attachments/assets/b3872a3d-35ea-4048-a893-0c06294627a0" />
 
 
 ### 3. Unsupervised Learning (Customer Segmentation)
@@ -41,7 +41,7 @@ By transitioning from a "spray-and-pray" marketing approach to a data-driven pre
     * Tuned the **Probability Threshold** (lowered to 0.35) to prioritize *Recall* over *Precision*.
 * **Business Impact:** By tuning the algorithm to be more aggressive in hunting for "YES" customers, the model successfully captured a significantly higher percentage of buyers. In a real-world scenario, this specific optimization translates directly to capturing lost revenue, vastly outperforming random guessing or baseline models.
 
-![Confusion Matrix of Optimized Model](<img width="576" height="384" alt="8" src="https://github.com/user-attachments/assets/33aa2cf2-86dd-45d6-a536-08b050863beb" />)
+<img width="576" height="384" alt="8" src="https://github.com/user-attachments/assets/33aa2cf2-86dd-45d6-a536-08b050863beb" />
 
 
 ## 💡 Key Business Takeaways
