@@ -41,7 +41,7 @@ By transitioning from a "spray-and-pray" marketing approach to a data-driven pre
     * Tuned the **Probability Threshold** (lowered to 0.3) to prioritize *Recall* over *Precision*.
 * **Business Impact:** By tuning the algorithm to be more aggressive in hunting for "YES" customers, the model successfully captured a significantly higher percentage of buyers(71% accuracy). In a real-world scenario, this specific optimisation translates directly to capturing lost revenue, vastly outperforming random guessing or baseline models.
 
-<img width="576" height="384" alt="Confusion Matrix" src="https://github.com/user-attachments/assets/19fe7626-cb14-4881-a66f-d21594fe952a" />
+<img width="684" height="455" alt="Confusion Matrix" src="https://github.com/user-attachments/assets/19fe7626-cb14-4881-a66f-d21594fe952a" />
 <img width="684" height="584" alt="ROC Curve - 2" src="https://github.com/user-attachments/assets/2de55a4f-273b-4a23-81d4-1dbfe724108f" />
 
 
